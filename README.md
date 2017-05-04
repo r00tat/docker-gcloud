@@ -1,4 +1,4 @@
-# debian-docker
+# docker-gcloud
 Debian docker image with docker utils installed
 
 The purpose of this image is to be able to run docker builds inside a container. 
@@ -7,12 +7,12 @@ The image can be run either by using the docker socket or with `--privileged`. A
 
 Docker socket:
 ```
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock paulwoelfel/debian-docker docker info
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock paulwoelfel/docker-gcloud docker info
 ```
 
 privileged:
 ```
-docker run --rm --privileged paulwoelfel/debian-docker docker info
+docker run --rm --privileged paulwoelfel/docker-gcloud docker info
 ```
 
 

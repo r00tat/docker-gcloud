@@ -1,4 +1,4 @@
-FROM paulwoelfel/debian-docker:latest
+FROM paulwoelfel/debian-docker:v1.13
 MAINTAINER github@frig.at
 
 ENV HOME /

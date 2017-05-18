@@ -15,6 +15,20 @@ privileged:
 docker run --rm --privileged paulwoelfel/docker-gcloud docker info
 ```
 
+# Included software
+
+  * docker-engine
+  * google-cloud-sdk
+  * google-cloud-sdk-app-engine-python
+  * kubectl
+  * curl
+  * wget
+  * vim
+  * python:
+  	* python-crypto
+  	* kubernetes
+  	* google-api-python-client
+  	* Jinja2
 
 # Docs
 

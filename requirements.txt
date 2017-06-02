@@ -1,6 +1,0 @@
-kubernetes
-oauth2client
-google-api-python-client
-Jinja2
-# Flask
-# gunicorn

@@ -15,7 +15,7 @@ privileged:
 docker run --rm --privileged paulwoelfel/docker-gcloud docker info
 ```
 
-# Included software
+## Included software
 
   * docker-engine
   * google-cloud-sdk
@@ -29,8 +29,14 @@ docker run --rm --privileged paulwoelfel/docker-gcloud docker info
   	* kubernetes
   	* google-api-python-client
   	* Jinja2
+    * google-api-helper
 
-# Docs
+## Docs
 
 This docker image uses the instructions from [docker.com](https://docs.docker.com/engine/installation/linux/debian/) to install the docker binary. 
 
+## Building
+
+```
+docker build -t paulwoelfel/docker-gcloud .
+```

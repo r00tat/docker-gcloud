@@ -26,6 +26,7 @@ RUN	apt-get update && \
 	wget 'https://sdk.cloud.google.com' -O install-gcloud.sh && \
 	chmod +x install-gcloud.sh && \
 	./install-gcloud.sh --disable-prompts --install-dir=/usr/local/ && \
+	rm install-gcloud.sh && \
 	export PATH="/usr/local/google-cloud-sdk/bin:${PATH}" && \
 	ln -s /usr/local/google-cloud-sdk/bin/gcloud /usr/bin/gcloud && \
 	ln -s /usr/local/google-cloud-sdk/bin/gsutil /usr/bin/gsutil && \

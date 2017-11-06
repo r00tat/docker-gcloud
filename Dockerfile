@@ -33,7 +33,8 @@ RUN	apt-get update && \
 		oauth2client \
 		google-api-python-client \
 		Jinja2 \
-		google-api-helper
+		google-api-helper \
+		protobuf
 
 ENV PATH="/usr/local/google-cloud-sdk/bin:${PATH}"
 # VOLUME ["/root/.config"]

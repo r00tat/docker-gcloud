@@ -18,9 +18,11 @@ docker run --rm --privileged paulwoelfel/docker-gcloud docker info
 ## Included software
 
   * docker-engine
-  * google-cloud-sdk
-  * google-cloud-sdk-app-engine-python
-  * kubectl
+  * google-cloud-sdk:
+    * bq
+    * gsutil
+    * app-engine-python
+    * kubectl
   * curl
   * wget
   * vim
@@ -30,6 +32,7 @@ docker run --rm --privileged paulwoelfel/docker-gcloud docker info
   	* google-api-python-client
   	* Jinja2
     * google-api-helper
+    * protobuf
 
 ## Docs
 

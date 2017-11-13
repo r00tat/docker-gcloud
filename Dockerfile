@@ -14,6 +14,7 @@ RUN	apt-get update && \
 		# google-cloud-sdk-app-engine-python \
 		# kubectl \
 		python-crypto \
+		python-dev \
 		vim \
 		wget \
 	&& \

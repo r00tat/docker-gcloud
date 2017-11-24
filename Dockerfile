@@ -11,9 +11,6 @@ RUN \
 	apt-get -y upgrade && \
 	apt-get -y install \
 		curl \
-		# google-cloud-sdk \
-		# google-cloud-sdk-app-engine-python \
-		kubectl \
 		python-crypto \
 		python-dev \
 		vim \

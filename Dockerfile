@@ -13,6 +13,7 @@ RUN \
 		curl \
 		google-cloud-sdk \
 		google-cloud-sdk-app-engine-python \
+		google-cloud-sdk-app-engine-python-extras \
 		kubectl \
 		python-crypto \
 		python-dev \
